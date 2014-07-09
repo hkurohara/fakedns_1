@@ -23,8 +23,8 @@ basil|10.0.0.76
 huongdt-vmware|10.0.0.230
 leminhquan-virtual-machine|10.0.1.104
 lu-DUNGNTR|10.0.1.198
-lu-DucNV|
 lu-DucNV|10.0.1.226
+lu-DucNV|
 lu-HN-Hoalh|10.0.1.189
 lu-HN-TungPN|10.0.1.6
 lu-HuyPhungQ|10.0.0.130
