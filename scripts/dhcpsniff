@@ -3,6 +3,10 @@
 DBNAME=/var/tmp/dhcpdata.db
 TABLENAME=maclist
 NETWORKDEVICE=eth0
+
+if [ "$1" != "" ];then
+	NETWORKDEVICE=$1
+fi
  
 sqlite3 $DBNAME "create table if not exists $TABLENAME (hwaddr primary key, hostname, ipaddr, updtime)"
 
